@@ -1,5 +1,3 @@
-README
-
 # Dependencies:
 1. MATLAB2018b with the QETLAB (for quantum density operators) and the Bioinformatics toolbox (for cross validation tools).
 2. Python 3.5 with autograd, and other standard packages in Anaconda.

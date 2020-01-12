@@ -183,7 +183,6 @@ function [K_best, hist] = learn_qgm(train_data, K_init, params, ...
                                                             stiefel_ncols);
          
             % Normalize the gradient
-            % TODO: not what we did for the paper
             G_norm = norm(G_mat, 2);
             running_G_norm = running_G_norm + G_norm;
             G_mat = G_mat / G_norm;
